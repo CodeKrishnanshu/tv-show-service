@@ -1,4 +1,4 @@
-package org.example.tvshowservice.model.inbound;
+package org.example.tvshowservice.controller;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
@@ -9,6 +9,7 @@ import org.example.tvshowservice.exceptions.InternalServerErrorException;
 import org.example.tvshowservice.exceptions.NotFoundRequestException;
 import org.example.tvshowservice.model.TVShowCreationRequestDomain;
 import org.example.tvshowservice.model.db.TVShow;
+import org.example.tvshowservice.model.inbound.TVShowCreationResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

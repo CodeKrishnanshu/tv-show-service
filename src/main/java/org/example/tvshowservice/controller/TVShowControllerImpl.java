@@ -3,7 +3,6 @@ package org.example.tvshowservice.controller;
 import lombok.RequiredArgsConstructor;
 import org.example.tvshowservice.model.TVShowCreationRequestDomain;
 import org.example.tvshowservice.model.db.TVShow;
-import org.example.tvshowservice.model.inbound.TVShowController;
 import org.example.tvshowservice.model.inbound.TVShowCreationResponse;
 import org.example.tvshowservice.service.TVShowService;
 import org.springframework.http.HttpStatus;
